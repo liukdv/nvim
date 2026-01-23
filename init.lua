@@ -20,3 +20,6 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz", { desc = "Page up and center" })
 -- Center cursor using physical Page keys
 vim.keymap.set("n", "<PageDown>", "<C-f>zz", { desc = "Page down and center" })
 vim.keymap.set("n", "<PageUp>", "<C-b>zz", { desc = "Page up and center" })
+-- Goto absolute start and absolute end 
+vim.keymap.set('n', 'gg', 'gg0', { desc = 'Go to absolute start of file' })
+vim.keymap.set('n', 'G', 'G$', { desc = 'Go to absolute end of file' })
