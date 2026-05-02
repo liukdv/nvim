@@ -5,6 +5,10 @@ vim.opt.clipboard = "unnamedplus"
 vim.opt.relativenumber = true
 vim.opt.number = true
 
+-- ignore case for searches but not if with capital letters
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
+
 -- mappatura movimenti (Colemak: U N E I) -- non necessaria 
 
 -- Paste without overriding register (visual mode)
